@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 650px;
+    height: 450px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.form-heading {
+    margin-bottom: 1.75rem;
+}
+
+.form-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.form-container input {
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-container form .form-control {
+    display: flex;
+    flex-direction: column;
+}
